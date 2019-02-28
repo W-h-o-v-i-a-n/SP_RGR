@@ -1,0 +1,23 @@
+; a[0] := 1 
+mov eax, 1
+mov dword ptr[a+0], eax
+; a[1] := 0 
+mov eax, 0
+mov dword ptr[a+4], eax
+; a[2] := 3 
+mov eax, 3
+mov dword ptr[a+8], eax
+; b := 5 
+mov eax, 5
+mov b, eax
+; c := 5 
+mov eax, 5
+mov c, eax
+; n := 1 
+mov eax, 1
+mov n, eax
+; n := n - 1 
+mov eax, n
+; b := c 
+mov eax, c
+mov b, eax
